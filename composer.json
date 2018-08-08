@@ -1,0 +1,22 @@
+{
+    "name": "jezevec10/laravel-simple-cache-busting",
+    "description": "Preppend asset urls with a unique hash which will allow invalidation of asset files cached by the browser.",
+    "keywords": ["cachebusting", "cache", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruyter",
+            "email": "info@ruyter.io"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ruyter\\CacheBusting\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
