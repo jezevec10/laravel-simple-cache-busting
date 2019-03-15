@@ -15,6 +15,11 @@ class GenerateHash extends Command {
         parent::__construct();
     }
 
+    public function handle()
+    {
+        $this->fire();
+    }
+    
     public function fire()
     {
         $this->line('Generating new hash. Environment: <comment>'.$this->laravel->make('env').'</comment>');
